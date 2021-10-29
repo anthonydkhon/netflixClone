@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./LoginScreen.css";
 import SignUpScreen from "./SignUpScreen";
+import devKhonLogo from "../media/devKhonLogo.png";
 
 function LoginScreen() {
   const [signIn, setSignIn] = useState(false);
@@ -39,6 +40,10 @@ function LoginScreen() {
                   Get Started
                 </button>
               </form>
+              <div className="logo">
+                <h3>This Netflix Clone was created by: </h3>
+                <img className="logo-img" src={devKhonLogo} alt="logo" />
+              </div>
             </div>
           </>
         )}

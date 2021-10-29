@@ -34,3 +34,9 @@
   transform: scale(1.09);
   opacity: 1;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
